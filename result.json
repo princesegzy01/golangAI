@@ -1,0 +1,29 @@
+{
+    "100": {
+        "CurrencyName": "Naira",
+        "Country": "Nigeria",
+        "DenominationFigures": "1000",
+        "DenominationText": "One thousand", 
+        "elliesConversion": "3", 
+        "dollarConversion": "14", 
+        "shortName": "1000NGN"
+    }, 
+    "010": {
+        "CurrencyName": "Naira", 
+        "Country": "Nigeria", 
+        "DenominationFigures": "200", 
+        "DenominationText": "Two Hundred",
+        "elliesConversion": "1", 
+        "dollarConversion": "5",
+        "shortName": "200NGN"
+    }, 
+    "001": {
+        "CurrencyName": "Naira",
+        "Country": "Nigeria",
+        "DenominationFigures": "500", 
+        "DenominationText": "Five Hundred", 
+        "elliesConversion": "2",
+        "dollarConversion": "10",
+        "shortName": "500NGN"
+    }
+}

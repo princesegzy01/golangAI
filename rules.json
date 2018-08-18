@@ -1,0 +1,33 @@
+{
+    "1000NGN" :  {
+        "currencyName" : "Naira",
+        "Country" : "Nigeria",
+        "Denomination_figures" : "1000",
+        "Denomination_text" : "One thousand",
+        "serial_length": 6,
+        "serial_id_location": "front",
+        "serial_id_type" : "divisible",
+        "r" : [5, 15, 30, 80],
+        "color_to_remove" : [],
+        "expected_dimension" : {
+            "height" : 211,
+            "width" : 427
+        }
+
+    },
+    "500NGN" :  {
+        "currencyName" : "Naira",
+        "Country" : "Nigeria",
+        "serial_length": 6,
+        "serial_id_location": "front",
+        "serial_id_type" : "divisible",
+        "Denomination_figures" : "500",
+        "Denomination_text" : "Five Hundred",
+        "r" : [38, 310, 40, 80],
+        "color_to_remove" : [],
+        "expected_dimension" : {
+            "height" : 229,
+            "width" : 448
+        }
+    }
+}
