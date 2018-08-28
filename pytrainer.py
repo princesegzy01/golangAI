@@ -1,10 +1,6 @@
 import tensorflow as tf
 from keras  import backend as K
 
-
-#import os
-#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-
 from keras.layers.core import K
 K._LEARNING_PHASE = tf.constant(0)
 
@@ -98,16 +94,3 @@ def trainCurrencyDetector():
     
 
 trainCurrencyDetector()
-#print("Done Training Currency")
-
-# def predictCurrency(train_data, test_image):
-    
-#     #train_data = "train_data.ell"
-#     currency_data_file_name, _ = utils.returnTrainDataFIleName(train_data)
-#     clf = load_model(currency_data_file_name)
-
-#     test_image = image.img_to_array(test_image)
-#     test_image = np.expand_dims(test_image, axis = 0)
-#     className = clf.predict(test_image)
-
-#     return className
